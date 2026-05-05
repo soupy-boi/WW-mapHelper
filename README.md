@@ -7,9 +7,9 @@ For people looking to install the mod (most likely to make another mod work):
 
 1.  [Download the Latest Release](https://github.com/soupy-boi/WW-mapHelper/releases/latest) and copy the zip
 2.  Navigate to the correct path based on your operating system:
-    - **Windows:** %APPDATA%\Godot\app_userdata\WheelchairWizards
-    - **macOS:** ~/Library/Application Support/Godot/app_userdata/WheelchairWizards
-    - **Linux:** ~/.local/share/godot/app_userdata/WheelchairWizards
+    - **Windows:** `%APPDATA%\Godot\app_userdata\WheelchairWizards`
+    - **macOS:** `~/Library/Application Support/Godot/app_userdata/WheelchairWizards`
+    - **Linux:** `~/.local/share/godot/app_userdata/WheelchairWizards`
 3.  create a `mods` folder in that path (if there isnt one already)
 4.  paste the zip into the `mods` folder
 
