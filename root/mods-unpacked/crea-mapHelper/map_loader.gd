@@ -41,7 +41,10 @@ func add_levels(map_name: String, level_paths: Array) -> void:
 
     ModLoaderLog.debug("attempted to add %d levels to the map '%s'. (%d succeeded, %d failed)" % [succeeded + failed, map_name, succeeded, failed], LOG_NAME)
 
-func add_map(map: Map):
+func add_map(map_name: String):
+    var map: Map = Map.new()
+    map.MapName = map_name
+    
     if map.Levels.size() == 0:
         map.Levels = [] as Array[PackedScene]
     custom_maps.append(map)
