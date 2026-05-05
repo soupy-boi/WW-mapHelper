@@ -1,7 +1,7 @@
 {
     "name": "mapHelper",
     "namespace": "crea",
-    "version_number": "0.0.1",
+    "version_number": "0.0.2",
     "description": "A mod to make it easier to add custom maps in mods.",
     "website_url": "",
     "dependencies": [],
