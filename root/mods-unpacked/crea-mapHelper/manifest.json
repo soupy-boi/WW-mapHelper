@@ -1,0 +1,21 @@
+{
+    "name": "mapHelper",
+    "namespace": "crea",
+    "version_number": "0.0.1",
+    "description": "A mod to make it easier to add custom maps in mods.",
+    "website_url": "",
+    "dependencies": [],
+    "extra": {
+        "godot": {
+            "authors": ["creabit"],
+            "tags": ["maps", "helper"],
+            "description_rich": "",
+            "optional_dependencies": [],
+            "load_before": [],
+            "incompatibilities": [],
+            "compatible_mod_loader_version": ["7.0.0"],
+            "compatible_game_version": ["2.0.1", "2.0.2"],
+            "config_schema": {}
+        }
+    }
+}
